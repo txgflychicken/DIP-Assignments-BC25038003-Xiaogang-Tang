@@ -120,7 +120,6 @@ def point_guided_deformation(image, source_pts, target_pts, alpha=1.0, eps=1e-8)
 
 This repository is Xiaogang Tang's implementation of Assignment_01 of DIP. 
 
-<img src="pics/teaser.png" alt="alt text" width="800">
 
 
 ## Running
@@ -137,7 +136,7 @@ To run point guided transformation, run:
 python run_point_transform.py
 ```
 
-## Results (need add more result images)
+## Results
 ### Basic Transformation
 <img src="pics/basic transformation1.png" alt="alt text" width="800">
 <img src="pics/basic transformation2.png" alt="alt text" width="800">
