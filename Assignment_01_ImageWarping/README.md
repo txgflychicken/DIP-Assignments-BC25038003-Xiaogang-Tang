@@ -122,14 +122,6 @@ This repository is Xiaogang Tang's implementation of Assignment_01 of DIP.
 
 <img src="pics/teaser.png" alt="alt text" width="800">
 
-## Requirements
-
-To install requirements:
-
-```setup
-python -m pip install -r requirements.txt
-```
-
 
 ## Running
 
@@ -147,10 +139,12 @@ python run_point_transform.py
 
 ## Results (need add more result images)
 ### Basic Transformation
-<img src="pics/global_demo.gif" alt="alt text" width="800">
+<img src="pics/basic transformation1.png" alt="alt text" width="800">
+<img src="pics/basic transformation2.png" alt="alt text" width="800">
 
 ### Point Guided Deformation:
-<img src="pics/point_demo.gif" alt="alt text" width="800">
+<img src="pics/point guided transformation1.png" alt="alt text" width="800">
+<img src="pics/point guided transformation2.png" alt="alt text" width="800">
 
 ## Acknowledgement
 
