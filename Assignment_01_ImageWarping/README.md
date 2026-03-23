@@ -2,8 +2,8 @@
 
 ### 1. Basic Image Geometric Transformation (Scale/Rotation/Translation).
 Fill the [Missing Part](run_global_transform.py#L21) of 'run_global_transform.py'.
-
-
+### code
+```python
 def apply_transform(image, scale, rotation, translation_x, translation_y, flip_horizontal):
 
     # Convert the image from PIL format to a NumPy array
@@ -72,10 +72,11 @@ def apply_transform(image, scale, rotation, translation_x, translation_y, flip_h
     )
     
     return transformed_image
-
+```
 
 ### 2. Point Based Image Deformation.
-
+### code
+```python
 Implement MLS or RBF based image deformation in the [Missing Part](run_point_transform.py#L52) of 'run_point_transform.py'.
 
 def point_guided_deformation(image, source_pts, target_pts, alpha=1.0, eps=1e-8):
@@ -84,7 +85,6 @@ def point_guided_deformation(image, source_pts, target_pts, alpha=1.0, eps=1e-8)
     ------
         A deformed image.
     """
-
     warped_image = np.array(image)
     ### FILL: Implement MLS or RBF based image warping
     h, w = image.shape[:2]
@@ -113,15 +113,12 @@ def point_guided_deformation(image, source_pts, target_pts, alpha=1.0, eps=1e-8)
             new_y = int(np.clip(new_pos[1], 0, h - 1))
             warped_image[y, x] = image[new_y, new_x]
     return warped_image
-
-
----
-## 一个作业提交模板 (里面的结果也可参考)
+```
 
 
 ## Implementation of Image Geometric Transformation
 
-This repository is Yudong Guo's implementation of Assignment_01 of DIP. 
+This repository is Xiaogang Tang's implementation of Assignment_01 of DIP. 
 
 <img src="pics/teaser.png" alt="alt text" width="800">
 
