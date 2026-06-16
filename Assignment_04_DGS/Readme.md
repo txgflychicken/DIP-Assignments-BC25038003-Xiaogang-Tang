@@ -1,4 +1,4 @@
-# Simplified 3D Gaussian Splatting — Assignment 4
+# 数字图像处理作业四：Bundle AdjustmentSimplified 3D Gaussian Splatting
 
 学号：BC25038003  姓名：唐晓刚
 
